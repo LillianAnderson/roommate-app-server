@@ -4,6 +4,11 @@ module.exports = {
     script: './server/app.js',
     env: {
       SERVER_PORT: 3000,
+      DB_NAME: 'AbodieMaster',
+      DB_USERNAME: 'notkosherdev',
+      DB_PASSWORD: 'Soupthatistoohot69',
+      DB_HOST: 'abodie-master.cwowsv4jk3xw.us-east-2.rds.amazonaws.com',
+      DB_PORT: 3306,
     },
   }],
   deploy: {
